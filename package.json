@@ -1,0 +1,23 @@
+{
+  "name": "preston-mro-dev-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel styles/main.scss scripts/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preston-mro/preston-mro-dev-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preston-mro/preston-mro-dev-2/issues"
+  },
+  "homepage": "https://github.com/preston-mro/preston-mro-dev-2#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
