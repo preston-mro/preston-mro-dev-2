@@ -1,0 +1,24 @@
+{
+  "name": "preston-mro-dev-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel parcel/index.scss parcel/index.js --dist-dir assets --no-source-maps",
+    "build": "parcel build parcel/index.scss parcel/index.js --dist-dir assets --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preston-mro/preston-mro-dev-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preston-mro/preston-mro-dev-2/issues"
+  },
+  "homepage": "https://github.com/preston-mro/preston-mro-dev-2#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}
