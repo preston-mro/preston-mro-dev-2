@@ -65,4 +65,4 @@ secrets.json
 .jekyll-metadata
 .ruby-version
 *.iml
-config.yml
+.parcel-cache

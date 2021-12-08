@@ -1,0 +1,15 @@
+.container {
+  background-color: purple;
+
+  .row {
+    padding: 22px;
+
+    .col-16 {
+      margin: 44px;
+
+      .btn-container {
+        background-color: yellow;
+      }
+    }
+  }
+}

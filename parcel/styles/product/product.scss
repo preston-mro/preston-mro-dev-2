@@ -1,0 +1,15 @@
+.product-container {
+  background-color: tan;
+
+  .new-row {
+    padding: 22px;
+
+    .col-3 {
+      margin: 44px;
+
+      .new-product-btn-container {
+        background-color: orange;
+      }
+    }
+  }
+}

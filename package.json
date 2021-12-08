@@ -2,9 +2,9 @@
   "name": "preston-mro-dev-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel styles/main.scss scripts/main.js"
+    "dev": "parcel parcel/awesomesass.scss parcel/awesomejs.js --dist-dir assets --no-source-maps",
+    "build": "parcel build parcel/awesomesass.scss parcel/awesomejs.js --dist-dir assets --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/preston-mro/preston-mro-dev-2#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "concurrently": "^6.4.0",
     "parcel": "^2.0.1"
   }
 }
